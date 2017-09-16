@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Social Network that tracks celebrities by their locations.
 
-Things you may want to cover:
+* Posts hold tags to some public figures and their location, and some attachments (photo/video). 
 
-* Ruby version
+* Celebrity tag is matched with the facebook-verified-users by Koala-Facebook-API to select the most closed correct name. 
 
-* System dependencies
+* Location tag is set by a longitude and a latitude, and other details like (country, city, and address)  by the rails geocoder.  
 
-* Configuration
+* Every user feed is determined by his friend's posts,  posts that have his current-location, and posts that have tags similar to his preferences from celebrities and locations.
 
-* Database creation
+* Its backend is developed by Ruby on Rails and MongoDB. 
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 
