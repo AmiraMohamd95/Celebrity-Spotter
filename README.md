@@ -1,6 +1,6 @@
-# README
+# Paparazzi 
 
-Social Network that tracks celebrities by their locations.
+Social Network that tracks celebrities by their locations (like Instagram). 
 
 * Posts hold tags to some public figures and their location, and some attachments (photo/video). 
 
